@@ -1,0 +1,6 @@
+com\desktop\utilities\ReadConfig.class
+com\desktop\pageObjects\LoginPage.class
+com\desktop\testCases\TC_LoginTest_T01.class
+com\desktop\utilities\Reporting.class
+com\desktop\testCases\BaseClass.class
+com\desktop\utilities\XlUtils.class

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.desktop.automation" verbose="1" >
+<parameter name="browser" value="firefox" />
+<listeners>
+		<listener class-name="com.desktop.utilities.Reporting" />
+	</listeners>
+  <test name="com.desktop.automation" >
+    <classes>
+      <class name="com.desktop.testCases.TC_LoginTest_T01" />
+   </classes>
+ </test>
+</suite>
