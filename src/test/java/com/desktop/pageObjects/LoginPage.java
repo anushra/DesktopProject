@@ -32,9 +32,9 @@ public class LoginPage {
 
 	}
 
-	/*public void clickOnLoginButton() {
+	public void clickOnLoginButton() {
 		loginButton.click();
 
-	}*/
+	}
 
 }
