@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.desktop.automation]">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.desktop.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="com.desktop.automation(failed)">
+    <classes>
+      <class name="com.desktop.testCases.TC_LoginTest_T01">
+        <methods>
+          <include name="loginTest"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.desktop.testCases.TC_LoginTest_T01 -->
+    </classes>
+  </test> <!-- com.desktop.automation(failed) -->
+</suite> <!-- Failed suite [com.desktop.automation] -->
