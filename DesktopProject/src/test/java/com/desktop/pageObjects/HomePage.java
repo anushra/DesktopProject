@@ -11,4 +11,6 @@ public class HomePage {
 	{
 		System.out.println("this is for display");
 	}
+	
+	public int a=10;
 }
