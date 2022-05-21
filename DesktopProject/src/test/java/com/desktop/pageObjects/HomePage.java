@@ -6,4 +6,9 @@ public class HomePage {
 	{
 		System.out.println("this is for display");
 	}
+	
+	public void newMethod()
+	{
+		System.out.println("this is for display");
+	}
 }
